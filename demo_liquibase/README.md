@@ -1,6 +1,6 @@
 ﻿# Demo Liquibase - SQL Saturday SP 2019 28/09/2019
 
-<p> Segue abaixo o projeto Spring utilizando o Liquibase </p>
+<p> Segue o projeto Spring utilizando o Liquibase </p>
 
 ## Ambiente
 
