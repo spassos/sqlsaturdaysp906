@@ -1,4 +1,4 @@
-﻿# Demo GIT - SQL Saturday 2019 28/09/2019
+# Demo GIT - SQL Saturday 2019 SP
 
 <p> Segue o diagrama utilizado na Demo </p>
 
@@ -15,27 +15,10 @@
     git init
 
 
-### Sincroniza o repositorio local com o remoto
+### Adiciona o repositorio remoto que será utilizado
 
     git remote add origin https://github.com/**user**/**repo**.git
 
-
-### Adiciona no Stage
-
-    git add * 
-
-### Commita as mudanças no repositorio local git
-
-    git commit -m "Comentário"
-
-
-### Envia as mudanças para o repositorio remoto
-
-    git push origin master
-
-### Cria uma branch
-
-    git checkout -b feature
 
 ### Adiciona no Stage
 
@@ -47,14 +30,20 @@
 
 ### Envia as mudanças para o repositorio remoto
 
-    git push origin nova_funcionalidade
+    git push origin master
 
-### Atualiza a master local com as mudanças da master Origin
+### Cria uma branch
+
+    git checkout -b feature
+
+### Envia as alterações da branch master do repositorio local para o remoto
+
+    git push origin master
+
+### Recebe as alterações da branch master do repositorio remoto e atualiza o local
 
     git pull origin master
 
+
 Author: Sérgio Passos
 Github: https://github.com/spassos
-
-
-
